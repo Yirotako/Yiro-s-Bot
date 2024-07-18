@@ -20,17 +20,17 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
- ╭━     ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ❄
+ ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 🍆
  ┃➤
  ┃➤    𝗛ola, ${taguser}
  ┃➤
- ┃➤ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 : 𝑺𝒉𝒂𝒅𝒐𝒘 ❄
- ┃➤ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : https://www.instagram.com/shadow.vz/
- ┃➤ Nᴜᴍᴇʀᴏ wa.me/525541081250
- ┃➤ Fᴇᴄʜᴀ : ${date}
+ ┃➤ 𝗗𝘂𝗲𝗻̃𝗼 : 𝙔𝙄𝙍𝙊 🍆
+ ┃➤ 𝗚𝗿𝘂𝗽𝗼 𝗗𝗲 𝗠𝗶 𝗗𝘂𝗲𝗻̃𝗼 : https://www.instagram.com/shadow.vz/
+ ┃➤ 𝗡𝘂𝗺𝗲𝗿𝗼 𝗗𝗲 𝗠𝗶 𝗗𝘂𝗲𝗻̃𝗼 : wa.me/5215636167834
+ ┃➤ 𝗙𝗲𝗰𝗵𝗮 : ${date}
  ╰━━━━━━━━━━━━━
 
- ╭━      ❄ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 +𝟏𝟖 ❄ 
+ ╭━      🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 +𝟏𝟖 🍆 
  ┃➤ _${usedPrefix}pack_
  ┃➤ _${usedPrefix}pack2_
  ┃➤ _${usedPrefix}pack3_
@@ -63,7 +63,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
  ┃➤ _${usedPrefix}nsfwglass_
  ┃➤ _${usedPrefix}hentaipdf *<texto>*_
  ┃➤ _${usedPrefix}hentaisearch *<texto>*_
- ╰━━━━━━━━━ 𝑺𝒉𝒂𝒅𝒐𝒘𝒔 𝑩𝒐𝒕 ━━━━`.trim();
+ ╰━━━━━━━━━ 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 ━━━━`.trim();
     if (m.isGroup) {
       await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
       await conn.sendFile(m.chat, vn, 'La biblia.mp3', null, m, true, {type: 'audioMessage', ptt: true});
