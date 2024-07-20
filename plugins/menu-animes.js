@@ -24,7 +24,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤    𝗛ola, ${taguser}
  ┃➤
  ┃➤ 𝗗𝘂𝗲𝗻̃𝗼 : 𝙔𝙄𝙍𝙊 🍆
- ┃➤ 𝗚𝗿𝘂𝗽𝗼 𝗗𝗲 𝗠𝗶 𝗗𝘂𝗲𝗻̃𝗼 : https://www.instagram.com/shadow.vz/
+ ┃➤ 𝗚𝗿𝘂𝗽𝗼 𝗗𝗲 𝗠𝗶 𝗗𝘂𝗲𝗻̃𝗼 : https://chat.whatsapp.com/KRnesA7HbidIa3va6X8un8
  ┃➤ 𝗡𝘂𝗺𝗲𝗿𝗼 𝗗𝗲 𝗠𝗶 𝗗𝘂𝗲𝗻̃𝗼 : wa.me/5215636167834
  ┃➤ 𝗙𝗲𝗰𝗵𝗮 : ${date}
  ╰━━━━━━━━━━━━━
