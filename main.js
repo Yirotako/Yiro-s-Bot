@@ -512,7 +512,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `  𝑩𝒐𝒕 𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝑩𝒚 𝑺𝒉𝒂𝒅𝒐𝒘  𝒊𝒈: @𝒔𝒉𝒂𝒅𝒐𝒘.𝒗𝒛`;
+  const bio = `  𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐃𝐎 𝐏𝐎𝐑 𝐘𝐈𝐑𝐎 𝐖𝐏 +𝟓𝟐 𝟓𝟔𝟑𝟔𝟏𝟔𝟕𝟖𝟑𝟒 𝐈𝐆 𝐘𝐈𝐑𝐎_𝐁𝐎𝐓𝐒 𝐀𝐃𝐐𝐔𝐈𝐄𝐑𝐄 𝐄𝐋 𝐓𝐔𝐋𝐋𝐎`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
