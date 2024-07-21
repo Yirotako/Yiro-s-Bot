@@ -22,24 +22,24 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `   
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 🍆
+ ╭━    👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 👾
  ┃➤
  ┃➤    𝗛ola, ${taguser}
- ┃➤
- ┃➤ 𝗗𝘂𝗲𝗻̃𝗼 : 𝙔𝙄𝙍𝙊 🍆
- ┃➤ 𝗚𝗿𝘂𝗽𝗼 𝗗𝗲 𝗠𝗶 𝗗𝘂𝗲𝗻̃𝗼 : https://www.instagram.com/shadow.vz/
+ ┃➤ ADQUIERE TU BOT PREMIUM O PERSONALIZADO EN MI GRUPO: https://chat.whatsapp.com/KRnesA7HbidIa3va6X8un8
+ ┃➤ 𝗗𝘂𝗲𝗻̃𝗼 : 𝙔𝙄𝙍𝙊 👾
+ ┃➤ 𝗚𝗿𝘂𝗽𝗼 𝗗𝗲 𝗠𝗶 𝗗𝘂𝗲𝗻̃𝗼 : https://chat.whatsapp.com/KRnesA7HbidIa3va6X8un8
  ┃➤ 𝗡𝘂𝗺𝗲𝗿𝗼 𝗗𝗲 𝗠𝗶 𝗗𝘂𝗲𝗻̃𝗼 : wa.me/5215636167834
  ┃➤ 𝗙𝗲𝗰𝗵𝗮 : ${date}
  ╰━━━━━━━━━━━━━
   
- ╭━      🍆 𝑰𝒏𝒇𝒐 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 🍆 
+ ╭━      👾 𝑰𝒏𝒇𝒐 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 👾
  ┃➤ ${usedPrefix}listagrupos
  ┃➤ ${usedPrefix}estado
  ┃➤ ${usedPrefix}creador
  ┃➤ ${usedPrefix}velocidad
  ╰━━━━━━━━━━━━━
 
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑱𝒖𝒆𝒈𝒐𝒔 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑱𝒖𝒆𝒈𝒐𝒔 👾
  ┃➤ ${usedPrefix}mates | matemáticas | math
  ┃➤ ${usedPrefix}lanzar *cara* | *cruz*
  ┃➤ ${usedPrefix}ppt *piedra : papel : tijera*
@@ -85,7 +85,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}suerte
  ╰━━━━━━━━━━━━━
 
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑨𝒖𝒔𝒕𝒆𝒔 𝑫𝒆𝒍 𝑮𝒓𝒖𝒑𝒐  🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑨𝒖𝒔𝒕𝒆𝒔 𝑫𝒆𝒍 𝑮𝒓𝒖𝒑𝒐 👾
  ┃➤ ${usedPrefix}enable *o* disable *bienvenida | welcome*
  ┃➤ ${usedPrefix}enable *o* disable *avisos | detect*
  ┃➤ ${usedPrefix}enable *o* disable *autonivel | autolevelup*
@@ -115,7 +115,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}enable *o* disable *sologrupos | gconly*  
  ╰━━━━━━━━━━━━━
 
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂𝒔 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂𝒔 👾
  ┃➤ ${usedPrefix}imagen | image *texto*
  ┃➤ ${usedPrefix}pinterest | dlpinterest *texto*
  ┃➤ ${usedPrefix}wallpaper|wp *texto*
@@ -145,7 +145,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}historia
  ╰━━━━━━━━━━━━━
 
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝑫𝒆𝒍 𝑮𝒓𝒖𝒑𝒐 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝑫𝒆𝒍 𝑮𝒓𝒖𝒑𝒐 👾
  ┃➤ ${usedPrefix}add *numero*
  ┃➤ ${usedPrefix}sacar | ban | kick  *@tag*
  ┃➤ ${usedPrefix}grupo *abrir o cerrar*
@@ -180,7 +180,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}disable
   ╰━━━━━━━━━━━━━
 
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑪𝒐𝒏𝒗𝒆𝒓𝒕𝒊𝒅𝒐𝒓𝒆𝒔 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑪𝒐𝒏𝒗𝒆𝒓𝒕𝒊𝒅𝒐𝒓𝒆𝒔 👾
  ┃➤ ${usedPrefix}toimg | img | jpg *sticker*
  ┃➤ ${usedPrefix}toanime | jadianime *foto*
  ┃➤ ${usedPrefix}tomp3 | mp3 *video o nota de voz*
@@ -191,12 +191,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}tts es *texto*
  ╰━━━━━━━━━━━━━
 
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑳𝒐𝒈𝒐𝒔 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑳𝒐𝒈𝒐𝒔 👾 
  ┃➤ ${usedPrefix}logos *efecto texto*
  ┃➤ ${usedPrefix}menulogos2
 ╰━━━━━━━━━━━━━
   
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑳𝒐𝒈𝒐𝒔 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑳𝒐𝒈𝒐𝒔 👾
  *┃➤* ${usedPrefix}simpcard *@tag*
  *┃➤* ${usedPrefix}hornycard *@tag*
  *┃➤* ${usedPrefix}lolice *@tag*
@@ -207,7 +207,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ╰━━━━━━━━━━━━━
 
  
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑨𝒏𝒊𝒎𝒆 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑨𝒏𝒊𝒎𝒆 👾 
  ┃➤ ${usedPrefix}chica
  ┃➤ ${usedPrefix}chico
  ┃➤ ${usedPrefix}cristianoronaldo
@@ -260,7 +260,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}cosplay
  ╰━━━━━━━━━━━━━
   
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑬𝒇𝒆𝒄𝒕𝒐𝒔 🍆
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑬𝒇𝒆𝒄𝒕𝒐𝒔 👾
  ┃➤ ${usedPrefix}bass
  ┃➤ ${usedPrefix}blown
  ┃➤ ${usedPrefix}deep
@@ -275,7 +275,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}tupai
  ╰━━━━━━━━━━━━━
   	
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑩𝒖𝒔𝒒𝒖𝒆𝒅𝒂𝒔 🍆
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑩𝒖𝒔𝒒𝒖𝒆𝒅𝒂𝒔 👾
  ┃➤ ${usedPrefix}animeinfo *texto*
  ┃➤ ${usedPrefix}anuel
  ┃➤ ${usedPrefix}conejo
@@ -290,7 +290,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}wiki | wikipedia *texto*
  ╰━━━━━━━━━━━━━
 
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑯𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑯𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔 👾 
  ┃➤ ${usedPrefix}afk *motivo*
  ┃➤ ${usedPrefix}acortar *url*
  ┃➤ ${usedPrefix}calc *operacion math*
@@ -307,11 +307,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ╰━━━━━━━━━━━━━
 
 
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑻𝒐𝒑𝒔 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑻𝒐𝒑𝒔 👾 
  ┃➤ ${usedPrefix}top
  ╰━━━━━━━━━━━━━
   
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 👾 
  ┃➤ ${usedPrefix}sticker | s *imagen o video*
  ┃➤ ${usedPrefix}sticker | s *url de tipo jpg*
  ┃➤ ${usedPrefix}emojimix *😺+😆*
@@ -331,12 +331,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}cs *:* cs2
  ╰━━━━━━━━━━━━━
   
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 2 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 2 👾
  ┃➤ ${usedPrefix}wm *packname|author*
  ┃➤ ${usedPrefix}wm *texto1|texto2*
  ╰━━━━━━━━━━━━━
   
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 3 🍆 
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 𝑺𝒕𝒊𝒄𝒌𝒆𝒓𝒔 3 👾 
  ┃➤ ${usedPrefix}palmaditas | pat *@tag*
  ┃➤ ${usedPrefix}bofetada | slap *@tag*
  ┃➤ ${usedPrefix}golpear *@tag*
@@ -344,7 +344,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}alimentar | food *@tag*
  ╰━━━━━━━━━━━━━
   
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 𝑶𝒘𝒏𝒆𝒓𝒔 🍆 
+ ╭━   👾 COMANDOS PARA MI AMO 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 👾
  ┃➤ ${usedPrefix}join *enlace*
  ┃➤ ${usedPrefix}unete *enlace*
  ┃➤ ${usedPrefix}dardiamantes *cantidad*
@@ -373,7 +373,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}añadirdiamantes *@tag cantidad*
  ┃➤ ${usedPrefix}añadirxp *@tag cantidad*
  ┃➤ ${usedPrefix}añadirManjirocoins *@tag cantidad*
-  ╰━━━━━━━━━ 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 ━━━━ `.trim();
+  ╰━━━━━━━━━ 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 ━━━━ `.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
