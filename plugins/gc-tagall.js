@@ -5,12 +5,12 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 ${pesan}`;
-  let teks = `𝑨𝒄𝒕𝒊𝒗𝒆𝒏𝒔𝒆 𝑨𝒍𝒗!!\n\n ${oi}\n\n 𝑴𝒆𝒏𝒄𝒊𝒐𝒏𝒆𝒔:\n\n`;
+  const oi = `𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 ${pesan}`;
+  let teks = `𝐀𝐂𝐓𝐈𝐕𝐀𝐓𝐄 𝐆𝐄𝐘!!\n\n ${oi}\n\n 𝐌𝐄𝐍𝐂𝐈𝐎𝐍𝐄𝐒 𝐘𝐈𝐑𝐎𝐒 𝐅𝐑𝐄𝐄:\n\n`;
   for (const mem of participants) {
-    teks += `🍆 @${mem.id.split('@')[0]}\n`;
+    teks += `👾 @${mem.id.split('@')[0]}\n`;
   }
-  teks += `𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏`;
+  teks += `𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
