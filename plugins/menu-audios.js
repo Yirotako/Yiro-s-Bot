@@ -20,17 +20,17 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
- ╭━     🍆 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 🍆
+ ╭━     👾 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 👾
  ┃➤
  ┃➤    𝗛ola, ${taguser}
- ┃➤
- ┃➤ 𝗗𝘂𝗲𝗻̃𝗼 : 𝙔𝙄𝙍𝙊 🍆
- ┃➤ 𝗚𝗿𝘂𝗽𝗼 𝗗𝗲 𝗠𝗶 𝗗𝘂𝗲𝗻̃𝗼 : https://www.instagram.com/shadow.vz/
+ ┃➤ HOLA SOY YIRO SI GUSTAS ADQUIRIR UN BOT DE PAGA O PERSONALIZADO CONTACTARME EN MI GRUPO https://chat.whatsapp.com/KRnesA7HbidIa3va6X8un8
+ ┃➤ 𝗗𝘂𝗲𝗻̃𝗼 : 𝙔𝙄𝙍𝙊 👾
+ ┃➤ 𝗚𝗿𝘂𝗽𝗼 𝗗𝗲 𝗠𝗶 𝗗𝘂𝗲𝗻̃𝗼 : https://chat.whatsapp.com/KRnesA7HbidIa3va6X8un8
  ┃➤ 𝗡𝘂𝗺𝗲𝗿𝗼 𝗗𝗲 𝗠𝗶 𝗗𝘂𝗲𝗻̃𝗼 : wa.me/5215636167834
  ┃➤ 𝗙𝗲𝗰𝗵𝗮 : ${date}
  ╰━━━━━━━━━━━━━
  
- ╭━      🍆 𝑨𝒖𝒅𝒊𝒐𝒔 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 🍆 
+ ╭━     👾 𝑨𝒖𝒅𝒊𝒐𝒔 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 👾
  ┃➤ ${usedPrefix}Quien es tu sempai botsito 7w7
  ┃➤ ${usedPrefix}Te diagnostico con gay
  ┃➤ ${usedPrefix}No digas eso papu
@@ -73,7 +73,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃➤ ${usedPrefix}UwU
  ┃➤ ${usedPrefix}:c
  ┃➤ ${usedPrefix}a
- ╰━━━━━━━━━ 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏 ━━━━`.trim();
+ ╰━━━━━━━━━ 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓 ━━━━`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
