@@ -36,12 +36,12 @@ global.owner = [
 global.suittag = ['5215636167834'];
 global.prems = ['5215636167834'];
 
-global.packname = '𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏';
-global.author = '𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏';
-global.wm = '𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏';
+global.packname = '𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓';
+global.author = '𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓';
+global.wm = '𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓';
 global.titulowm = '𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏';
-global.titulowm2 = `𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏`
-global.igfg = '𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏';
+global.titulowm2 = `𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓`
+global.igfg = '𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./yiromenu.png');
@@ -62,9 +62,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n 𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏`;
-global.gt = '𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏';
-global.mysticbot = '𝙔𝙄𝙍𝙊𝙎 𝘽𝙊𝙏';
+global.wm2 = `▸ ${dia} ${fecha}\n 𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓`;
+global.gt = '𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓';
+global.mysticbot = '𝐅𝐑𝐄𝐄 𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
